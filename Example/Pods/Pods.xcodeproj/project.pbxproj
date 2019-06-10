@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0B823CD16EFED0C462EF58A130FC2295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		18227F0520F84468C1AA346DBC7653D0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B17B587BFABA1045FD5E1F4865772089 /* ReplaceMe.m */; };
 		2013DE413A997BBC3F180450347C7BB3 /* hhbCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1566576E4DEFCC52861433018F730AE /* hhbCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48AD1B38D885FEBC244B4B7CCE443FC9 /* UIAlertController+HuAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 872AEF21DD1CABE3161CFFD5511B55AD /* UIAlertController+HuAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		516BA9E995A584155C071165DA1EC1D7 /* NSArray+Wgarray.m in Sources */ = {isa = PBXBuildFile; fileRef = C68F05F0C8EC737B1B04DC24C3113239 /* NSArray+Wgarray.m */; };
@@ -67,7 +66,6 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1386C062DA32BA664D8E62663584FF2 /* Pods_hhbCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hhbCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC46FE7F51FF372E44F5DD7B7347686 /* Pods-hhbCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hhbCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		B17B587BFABA1045FD5E1F4865772089 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = hhbCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		B2F0CF95A10E4D27795D2CB144329F7E /* Pods-hhbCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hhbCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BBBA0393539EB2793F538741BCABD28C /* Pods-hhbCategoryKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hhbCategoryKit_Example.modulemap"; sourceTree = "<group>"; };
 		C68F05F0C8EC737B1B04DC24C3113239 /* NSArray+Wgarray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Wgarray.m"; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 		565ED851BA07A1F506FC9A0D93572A66 /* hhbCategoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				B17B587BFABA1045FD5E1F4865772089 /* ReplaceMe.m */,
 				595968C0354C36007EE32D2FF36C456B /* categoryFile */,
 				D909FA57A5C24A0A9D0FD10CC1DD917D /* Pod */,
 				8E6DC469BE7F7BDBF8ACA647E12D25D5 /* Support Files */,
@@ -406,7 +403,6 @@
 				ACF55BC11151F59A2FB59C102BE8E514 /* hhbCategoryKit-dummy.m in Sources */,
 				516BA9E995A584155C071165DA1EC1D7 /* NSArray+Wgarray.m in Sources */,
 				BC9D486A32782DD43BF2C9C9211755C1 /* NSString+HUString.m in Sources */,
-				18227F0520F84468C1AA346DBC7653D0 /* ReplaceMe.m in Sources */,
 				E8CE2767222EEA3510B9A1E68046094B /* UIAlertController+HuAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
